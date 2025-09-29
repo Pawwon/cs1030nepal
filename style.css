@@ -1,0 +1,137 @@
+/* ====== General Reset ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cce6e6;  
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000033;
+  line-height: 1.6;
+}
+
+/* ====== Header & Footer ====== */
+header, footer {
+  background-color: #004d4d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* ====== Navigation ====== */
+nav {
+  margin: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #a1530a;
+  text-decoration: underline;
+}
+
+/* ====== Main Content ====== */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* ====== Home Page (section + bullets) ====== */
+section {
+  background-color: #f5ffcc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 4px 2px 4px rgba(0,0,0,0.4);
+}
+
+ul {
+  margin: 15px 0 15px 40px;
+  padding: 0;
+}
+
+ul li {
+  margin: 8px 0;
+  list-style-type: square;
+  color: #004d4d;
+}
+
+/* ====== Geography Page (Table only) ====== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: #e6f7ff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+table, th, td {
+  border: 1px solid #004d4d;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #004d4d;
+  color: white;
+}
+
+/* ====== Culture Page (Bullets focus) ====== */
+.culture-list {
+  margin: 15px 0 15px 40px;
+  padding: 0;
+}
+
+.culture-list li {
+  margin: 10px 0;
+  list-style-type: circle;
+  font-weight: bold;
+  color: #0059b3;
+}
+
+/* ====== Destinations Page (Images + Text only) ====== */
+.content-image {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 15px auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* ====== Headings ====== */
+h2, h3 {
+  color: #0059b3;
+  margin: 15px 0 10px 0;
+}
+
+h4 {
+  color: #a1530a;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+  text-align: left;
+}
